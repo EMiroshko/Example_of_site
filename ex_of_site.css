@@ -1,5 +1,18 @@
+html{
+	font-family:"Verdana";
+	font-weight: normal;
+	background-color: #dddddd;
+	background-image: url(Images/Shopium_Landing_Table.png), url(Images/Shopium_Landing_Table.jpg), url(Images/Shopium_Landing_Background.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;
+
+
+}
 .page{
 	width:100%;
+	height:100%;
+	padding: 0px;
+
 
 }
 .content{
@@ -39,7 +52,6 @@ header{
 	border:1px solid #aaaaaa;
 	cursor:pointer;
 	color:#000000;
-	font-family:arial;
 	font-size:15px;
 	padding:2px 10px;
 	text-decoration:none;
@@ -49,6 +61,7 @@ header{
 
 .menu_button {
 	display: inline-block;
+	text-decoration:none;
 	position: absolute;
 	right: 0;
 
@@ -56,7 +69,6 @@ header{
 .main_part{
 	display: inline-block;
 	width: 530px;
-	height: 300px;
 	vertical-align: top;
 	margin-top: 40px;
 
@@ -64,20 +76,21 @@ header{
 .illustration{
 	display: inline-block;
 	width: 250px;
-	height: 300px;
 	vertical-align: top;
 	margin-top: 40px;
 	margin-left: 50px;
 }
 .ill_title{
-	font-size: 40px;
+	font-size: 30px;
+	display:inline-block;
 }
 .ill_title_number{
-	font-size: 40px;
+	font-size: 30px;
 	color:#98FB98;
+	display:inline-block;
 }
 .title{
-	font-size: 40px;
+	font-size: 35px;
 }
 .buttons{
 	margin-top: 40px;
@@ -88,8 +101,7 @@ header{
 	display:inline-block;
 	cursor:pointer;
 	color:#000000;
-	font-family:arial;
-	font-size:15px;
+	font-size:12px;
 	padding:10px 35px;
 	text-decoration:none;
 	
@@ -109,12 +121,12 @@ header{
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:arial;
-	font-size:15px;
+	font-size:12px;
 	color:#00008B;
 	padding:10px 35px;
 	text-decoration:none;
 	margin-left: 20px;
+
 	
 }
 
@@ -125,3 +137,21 @@ header{
 	position:relative;
 	top:1px;
 }
+.month_sales,.today_sales,.growth,.ill_bottom_title{
+	font-size:10px;
+}
+.month_sales{
+	margin-top: 50px;
+}
+.today_sales,.growth{
+	margin-top: 20px;
+}
+.month_sales_number, .today_sales_number{
+	width:100px;
+	height: 40px;
+	border-bottom: #98FB98 solid;
+}
+.ill_bottom_title{
+	margin-top: 60px;
+}
+
