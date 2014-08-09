@@ -2,7 +2,7 @@ html{
 	font-family:"Verdana";
 	font-weight: normal;
 	background-color: #dddddd;
-	background-image: url(Images/Shopium_Landing_Table.png), url(Images/Shopium_Landing_Table.jpg), url(Images/Shopium_Landing_Background.jpg);
+	background-image:url(Images/Next_page_first.png), url(Images/Shopium_Landing_Table.png), url(Images/Shopium_Landing_first_page.png), url(Images/Shopium_Landing_Background.jpg);
 	background-repeat: no-repeat;
 	background-size:100%;
 
