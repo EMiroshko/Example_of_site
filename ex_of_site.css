@@ -1,8 +1,12 @@
+@font-face {
+    font-family: Lato;
+    src: url(Fonts/Lato2OFLWeb/Lato2OFLWeb/Lato/Lato-Regular.ttf) format('truetype');
+}
 html{
-	font-family:"Verdana";
+	font-family:Lato, Verdana;
 	font-weight: normal;
 	background-color: #dddddd;
-	background-image:url(Images/Next_page_first.png), url(Images/Shopium_Landing_Table.png), url(Images/Shopium_Landing_first_page.png), url(Images/Shopium_Landing_Background.jpg);
+	background-image:url(Images/logo.png), url(Images/Menu_sign_back.png),url(Images/Next_page_first.png), url(Images/Shopium_Landing_Table.png), url(Images/Shopium_Landing_first_page.png), url(Images/Shopium_Landing_Background.jpg);
 	background-repeat: no-repeat;
 	background-size:100%;
 
@@ -16,15 +20,15 @@ html{
 
 }
 .content{
-	width: 840px;
+	width: 850px;
 	margin: 0 auto;
 	position: relative;
 
 }
 header{
 	
-	margin-top: 40px;
-	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-bottom: 40px;
 }
 .logo{
 	display: inline-block;
@@ -32,6 +36,7 @@ header{
 }
 .logo_title{
 	display: inline-block;
+
 	
 }
 .logo_img{
@@ -42,28 +47,31 @@ header{
 }
 .top_menu{
 	display: inline-block;
-
+	position: absolute;
+	right: 0;
 }
+
 .enter_button {
 	display: inline-block;
-	position: absolute;
+	margin-right: 20px;
 	right: 100px;
 	border-radius:14px;
 	border:1px solid #aaaaaa;
 	cursor:pointer;
 	color:#000000;
-	font-size:15px;
+	font-size:12px;
 	padding:2px 10px;
 	text-decoration:none;
+	color: #aaaaaa;
 	
 }
-
-
 .menu_button {
 	display: inline-block;
 	text-decoration:none;
-	position: absolute;
-	right: 0;
+
+	font-size:12px;
+	color: #aaaaaa;
+	
 
 }
 .main_part{
@@ -89,8 +97,13 @@ header{
 	color:#98FB98;
 	display:inline-block;
 }
-.title{
+.title_shopium{
 	font-size: 35px;
+	color:#98FB98;
+}
+.title_advantages{
+	font-size: 35px;
+	color:#ffffff;
 }
 .buttons{
 	margin-top: 40px;
