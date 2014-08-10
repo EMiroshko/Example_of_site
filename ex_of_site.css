@@ -5,37 +5,39 @@
 html{
 	font-family:Lato, Verdana;
 	font-weight: normal;
-	background-color: #dddddd;
-	/*background-image:url(Images/Next_page_first.png), url(Images/Shopium_Landing_Table.png), url(Images/Shopium_Landing_first_page.png), url(Images/Shopium_Landing_Background.jpg);*/
-	background-image:url(Images/Total_back.png);
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-
+	background-color: #fff;
 
 }
-.page{
-	width:100%;
-	height:100%;
-	padding: 0px;
+body{
+	margin:0px;
 }
 .page_first{
 	width:100%;
 	height:100%;
 	padding: 0px;
+	background-image: url(Images/Shopium_Landing_first_page.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
-.content{
+.content_first{
 	width: 860px;
 	margin: 0 auto;
 	position: relative;
+	padding-top: 45px;
 
 }
 header{
-	
-	margin-top: 45px;
 	margin-bottom: 40px;
+}
+.illustration{
+	background-image: url(Images/Shopium_Landing_Table.png);
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 70px;
+	margin-left: 0px;
+	position: absolute;
+	right: 0px;
+
 }
 .logo{
 	display: inline-block;
@@ -90,14 +92,7 @@ header{
 	margin-top: 50px;
 
 }
-.illustration{
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 70px;
-	margin-left: 0px;
-	position: absolute;
-	right: 0px;
-}
+
 .ill_title{
 	font-size: 38px;
 	display:inline-block;
@@ -128,6 +123,7 @@ header{
 	font-size:12px;
 	padding:15px 35px;
 	text-decoration:none;
+	letter-spacing: 1.5px;
 	
 }
 
@@ -149,6 +145,7 @@ header{
 	padding:15px 35px;
 	text-decoration:none;
 	margin-left: 20px;
+	letter-spacing: 1.5px;
 
 	
 }
@@ -189,17 +186,38 @@ header{
 	margin-top: 30px;
 	font-size: 9px;
 }
-.next_page{
-	margin-top: 185px;
-	text-align: center;
+
+.next_page {
+    bottom: -39px;
+    position: absolute;
+    text-align: center;
+
 }
 .next_page_first{
+	display: inline-block;
 	text-decoration: none;
 	color: #000;
 	font-size: 14px;
-	
+	background-image: url(Images/next_page_first.png);
+	background-size: 100%;
+	padding: 13px 100px;
 }
 
+.next_page_arrow{
+	display: inline-block;
+}
+.page_second{
+	width:100%;
+	height:100%;
+	padding: 0px;
+}
+.content_second{
+	width: 860px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 45px;
+
+}
 .title_second{
 	margin-top: 35px;
 	margin-bottom: 30px;
@@ -251,13 +269,19 @@ header{
 	display: inline-block;
 	font-size: 14px;
 }
-.next_page_second{
-	text-decoration: none;
-	color: #000;
-	font-size: 14px;
-	text-align: center;
-	margin-top: 40px;
+.page_third{
+	width:100%;
+	height:100%;
+	padding: 0px;
 }
+.content_third{
+	width: 860px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 45px;
+
+}
+
 .title_third_first{
 	font-size: 70px;
 	text-align: center;
