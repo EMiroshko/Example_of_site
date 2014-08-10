@@ -6,38 +6,49 @@ html{
 	font-family:Lato, Verdana;
 	font-weight: normal;
 	background-color: #fff;
+	height: 100%;
 
 }
 body{
 	margin:0px;
+	height: 100%;
+}
+.page{
+	background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    padding: 0;
+    width: 100%;
 }
 .page_first{
-	width:100%;
-	height:100%;
-	padding: 0px;
-	background-image: url(Images/Shopium_Landing_first_page.png);
-	background-size: cover;
-	background-repeat: no-repeat;
+    background-image: url("Images/Shopium_Landing_first_page.png");
+    min-height:642px;
+    overflow: hidden;
 }
-.content_first{
+.content{
 	width: 860px;
 	margin: 0 auto;
 	position: relative;
 	padding-top: 45px;
+	height: 100%;
 
 }
 header{
 	margin-bottom: 40px;
 }
 .illustration{
-	background-image: url(Images/Shopium_Landing_Table.png);
+	background-image: url("Images/Shopium_Landing_Table.png");
 	display: inline-block;
-	vertical-align: top;
-	margin-top: 70px;
-	margin-left: 0px;
+	height: 512px;
 	position: absolute;
-	right: 0px;
-
+	right: -520px;
+	top: 130px;
+	vertical-align: top;
+	width: 888px;
+}
+.illustration_content{
+	margin-left: 150px;
+    margin-top: 63px;
 }
 .logo{
 	display: inline-block;
@@ -188,12 +199,14 @@ header{
 }
 
 .next_page {
-    bottom: -39px;
-    position: absolute;
-    text-align: center;
+	margin: 0 auto;
+	position: absolute;
+	text-align: center;
+	top: -23px;
+	width: 100%;
 
 }
-.next_page_first{
+.next_page_link{
 	display: inline-block;
 	text-decoration: none;
 	color: #000;
@@ -207,17 +220,11 @@ header{
 	display: inline-block;
 }
 .page_second{
-	width:100%;
-	height:100%;
-	padding: 0px;
+	margin-top: -35px;
+	background-color:#fff;
+	text-align: center;
 }
-.content_second{
-	width: 860px;
-	margin: 0 auto;
-	position: relative;
-	padding-top: 45px;
 
-}
 .title_second{
 	margin-top: 35px;
 	margin-bottom: 30px;
@@ -237,7 +244,7 @@ header{
 	text-align: center;
 	margin-top: 140px;
 }
-.opportunity_text, .new_clients_text, .new_checkout_text, .profit_text, .arrow_first, .arrow_second, .arrow_third{
+.opportunity_text, .new_clients_text, .new_checkout_text, .profit_text, .arrow_second_page{
 	display:inline-block;
 	vertical-align: top;
 	text-align: left;
@@ -270,16 +277,7 @@ header{
 	font-size: 14px;
 }
 .page_third{
-	width:100%;
-	height:100%;
-	padding: 0px;
-}
-.content_third{
-	width: 860px;
-	margin: 0 auto;
-	position: relative;
-	padding-top: 45px;
-
+	background-color:#E2E7EB;
 }
 
 .title_third_first{
@@ -292,9 +290,5 @@ header{
 	text-align: center;
 }
 .next_page_third{
-	text-decoration: none;
-	color: #000;
-	font-size: 14px;
-	text-align: center;
-	margin-top: 410px;
+	background-image: url(Images/next_page_second.png);
 }
