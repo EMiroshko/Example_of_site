@@ -200,6 +200,53 @@ header{
 	text-align: center;
 
 }
-.opportunity, .arrow_first, .new_clients, .arrow_second, .new_checkout, .arrow_third, .profit{
+
+.opportunity_icon, .new_clients_icon, .new_checkout_icon, .profit_icon{
 	display: inline-block;
+	
 }
+.images_second_page{
+	margin-top: 70px;
+}
+.text_second_page{
+	text-align: center;
+	margin-top: 140px;
+}
+.opportunity_text, .new_clients_text, .new_checkout_text, .profit_text, .arrow_first, .arrow_second, .arrow_third{
+	display:inline-block;
+	vertical-align: top;
+	text-align: left;
+	margin-left: 10px;
+	font-size: 18px;
+}
+.opportunity_icon{
+	position:absolute;
+	left: 110px;
+}
+.new_clients_icon{
+	position:absolute;
+	left: 415px;
+} 
+.new_checkout_icon{
+	position:absolute;
+	left: 560px;
+} 
+.profit_icon{
+	position:absolute;
+	left: 690px;	
+}
+.opportunity_question{
+	
+	margin: 50px auto;
+	border-radius:28px;
+	border:1px solid #98FB98;
+	padding: 15px 25px;
+	display: inline-block;
+	font-size: 14px;
+}
+.next_page_second{
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 20px;
