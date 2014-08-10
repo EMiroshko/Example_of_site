@@ -9,7 +9,10 @@ html{
 	/*background-image:url(Images/Next_page_first.png), url(Images/Shopium_Landing_Table.png), url(Images/Shopium_Landing_first_page.png), url(Images/Shopium_Landing_Background.jpg);*/
 	background-image:url(Images/Total_back.png);
 	background-repeat: no-repeat;
-	background-size:100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 
 
 }
