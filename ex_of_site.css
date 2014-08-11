@@ -320,3 +320,70 @@ header{
 .content_shop_needs{
 	padding-top: 0px;
 }
+.checkout_consultation{
+	border-radius:28px;
+	border:1px solid #98FB98;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:14px;
+	padding:15px 25px;
+	text-decoration:none;
+	letter-spacing: 1.5px;
+	
+}
+.checkout_consultation:hover {
+	background-color:#5cbf2a;
+}
+.checkout_consultation:active {
+	position:relative;
+	top:1px;
+}
+.checkout_shop{
+	background-color:#98FB98;
+	border-radius:28px;
+	border:1px solid #98FB98;
+	display:inline-block;
+	cursor:pointer;
+	font-size:14px;
+	color:#00008B;
+	padding:15px 25px;
+	text-decoration:none;
+	margin-left: 20px;
+	letter-spacing: 1.5px;
+
+	
+}
+
+.checkout_shop:hover {
+	background-color:#5cbf2a;
+}
+.checkout_shop:active {
+	position:relative;
+	top:1px;
+}
+.title_shop_needs{
+	padding-top: 100px;
+	color:#fff;
+	font-size: 35px;
+}
+.text_shop_needs{
+	margin-top: 30px;
+	color:#fff;
+	font-size: 18px;
+	line-height:28px;
+}
+.buttons_shop_needs{
+	margin-top: 60px;
+}
+.footer_shop_needs{
+	position: absolute;
+	bottom:0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-top: #fff solid;
+}
+.year, .net, .creator_title{
+	display: inline-block;
+	color: #fff;
+}
