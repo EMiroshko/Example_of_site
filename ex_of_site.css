@@ -8,10 +8,12 @@ html{
 	background-color: #fff;
 	height: 100%;
 
+
 }
 body{
 	margin:0px;
 	height: 100%;
+
 }
 .page{
 	background-repeat: no-repeat;
@@ -19,10 +21,12 @@ body{
     height:100%;
     padding: 0;
     width: 100%;
+    min-height:642px;
+    min-width: 1000px;
 }
 .page_main{
     background-image: url("Images/Shopium_Landing_first_page.png");
-    min-height:642px;
+    
     overflow: hidden;
     z-index: 0;
     
@@ -288,12 +292,12 @@ header{
 }
 .page_potencial{
 	background-color:#E2E7EB;
+	background-image: url(Images/third_back.png);
+	background-size: 100%;
 	margin-top: -55px;
 	text-align: center;
 	z-index: 30;
 	position: relative;
-	
-
 }
 
 .title_potencial_first{
@@ -306,24 +310,67 @@ header{
 	display: inline-block;
 	color:#7BDE84;
 }
-.potencial_illustration{
-	background-image: url(Images/third_page_map.png);
-	background-size:90%;
-	background-repeat: no-repeat;
-	height: 586px;
-	width: 1041px;
-	position: absolute;
-	top:250px;
 
-}
 .title_potencial_second{
 	font-size: 20px;
 	text-align: center;
 }
+
 .next_page_potencial{
 	background-image: url(Images/next_page_second.png);
 	
 }
+
+.page_history{
+	background-color:#fff;
+	margin-top: -55px;
+	text-align: center;
+	z-index: 90;
+	position: relative;
+}
+
+.next_page_history{
+	background-image: url(Images/next_page_first.png);
+	
+}
+
+.title_history{
+	margin-top: 40px;
+	font-size: 38px;
+}
+.text_history{
+	margin-top: 25px;
+	font-size: 18px;
+	line-height:28px;	
+}
+.logo_history{
+	margin-top: 30px;
+}
+.tosho_logo{
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.show_history{
+	margin-top: 100px;
+	color:#aaa;
+	border-radius:28px;
+	border:1px solid #7BDE84;
+	display:inline-block;
+	cursor:pointer;
+	font-size:14px;
+	padding:15px 25px;
+	text-decoration:none;
+	letter-spacing: 1.5px;
+	
+}
+.show_history:hover {
+	background-color:#5cbf2a;
+}
+.show_history:active {
+	position:relative;
+	top:1px;
+}
+
 .next_page_shop_needs{
 	background-image: url(Images/next_page_shop_needs.png);
 	color: #fff;
