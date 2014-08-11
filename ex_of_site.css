@@ -321,8 +321,6 @@ header{
 	
 }
 
-
-
 .page_money{
 	background-color:#E2E7EB;
 	background-image: url(Images/forth_back.png);
@@ -354,6 +352,43 @@ header{
 	color: #fff;
 	
 }
+
+
+
+.page_covering{
+	background-color:#E2E7EB;
+	background-image: url(Images/five_back.png);
+	margin-top: -55px;
+	text-align: center;
+	z-index: 30;
+	position: relative;
+	height: 100%;
+}
+
+.title_covering_first{
+	font-size: 36px;
+	text-align: center;
+	margin-top: 40px;
+	display: inline-block;
+	color: #fff;
+}
+
+.text_covering{
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+	margin-top: 20px;
+	line-height:28px;	
+}
+
+.next_page_covering{
+	background-image: url(Images/next_page_forth.png);
+	background-size: 100%;
+	color: #fff;
+	width: 150px;	
+}
+
+
 
 .page_history{
 	background-color:#fff;
