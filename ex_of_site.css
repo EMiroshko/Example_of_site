@@ -20,7 +20,7 @@ body{
     padding: 0;
     width: 100%;
 }
-.page_first{
+.page_main{
     background-image: url("Images/Shopium_Landing_first_page.png");
     min-height:642px;
     overflow: hidden;
@@ -224,17 +224,17 @@ header{
 .next_page_arrow{
 	display: inline-block;
 }
-.next_page_second{
+.next_page_have_not_shop{
 	z-index: 2;
 }
-.page_second{
+.page_have_not_shop{
 	margin-top: -85px;
 	background-color:#fff;
 	text-align: center;
 	z-index: 2;
 }
 
-.title_second{
+.title_have_not_shop{
 	margin-top: 35px;
 	margin-bottom: 30px;
 	font-size: 36px;
@@ -246,14 +246,14 @@ header{
 	display: inline-block;
 	
 }
-.images_second_page{
+.images_have_not_shop_page{
 	margin-top: 70px;
 }
-.text_second_page{
+.text_have_not_shop_page{
 	text-align: center;
 	margin-top: 140px;
 }
-.opportunity_text, .new_clients_text, .new_checkout_text, .profit_text, .arrow_second_page{
+.opportunity_text, .new_clients_text, .new_checkout_text, .profit_text, .arrow_have_not_shop_page{
 	display:inline-block;
 	vertical-align: top;
 	text-align: left;
@@ -285,23 +285,23 @@ header{
 	display: inline-block;
 	font-size: 14px;
 }
-.page_third{
+.page_potencial{
 	background-color:#E2E7EB;
 	margin-top: -55px;
 	text-align: center;
 	z-index: 3;
 }
 
-.title_third_first{
+.title_potencial_first{
 	font-size: 70px;
 	text-align: center;
 	margin-top: 50px;
 }
-.title_third_second{
+.title_potencial_second{
 	font-size: 20px;
 	text-align: center;
 }
-.next_page_third{
+.next_page_potencial{
 	background-image: url(Images/next_page_second.png);
 	
 }
