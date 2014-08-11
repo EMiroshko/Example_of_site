@@ -225,13 +225,14 @@ header{
 	display: inline-block;
 }
 .next_page_have_not_shop{
-	z-index: 2;
+	z-index: 20;
 }
 .page_have_not_shop{
 	margin-top: -85px;
 	background-color:#fff;
 	text-align: center;
-	z-index: 2;
+	z-index: 20;
+	position: relative;
 }
 
 .title_have_not_shop{
@@ -289,7 +290,9 @@ header{
 	background-color:#E2E7EB;
 	margin-top: -55px;
 	text-align: center;
-	z-index: 3;
+	z-index: 30;
+	position: relative;
+	
 
 }
 
@@ -330,7 +333,7 @@ header{
 	margin-top: -55px;
 	text-align: center;
 	height: 100%;
-	z-index: 10;
+	z-index: 100;
 	position: relative;
 
 }
@@ -403,6 +406,9 @@ header{
 	bottom: 40px;
 	padding-top: 40px;
 	width: 100%;
+	background-color:#262E33;
+	z-index: 110;
+
 }
 .content_footer_shop_needs{
 	padding-top: 0;
