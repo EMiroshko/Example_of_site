@@ -24,7 +24,7 @@ body{
     background-image: url("Images/Shopium_Landing_first_page.png");
     min-height:642px;
     overflow: hidden;
-    background-size: 100%;
+    
 }
 .content{
 	width: 860px;
@@ -39,7 +39,6 @@ header{
 }
 .illustration{
 	background-image: url("Images/Shopium_Landing_Table.png");
-	background-size: 90%;
 	background-repeat: no-repeat;
 	display: inline-block;
 	height: 512px;
@@ -205,7 +204,7 @@ header{
 	margin: 0 auto;
 	position: absolute;
 	text-align: center;
-	top: -74px;
+	top: -23px;
 	width: 100%;
 
 }
@@ -297,14 +296,15 @@ header{
 }
 .next_page_third{
 	background-image: url(Images/next_page_second.png);
-	margin-top: 50px;
+	
 }
-.next_page_forth{
+.next_page_last{
 	background-image: url(Images/next_page_third.png);
-	margin-top: 50px;
+	color: #fff;
 }
-.page_forth{
+.page_last{
 	background-color:#262D33;
 	margin-top: -35px;
 	text-align: center;
+	height: 668px;
 }
