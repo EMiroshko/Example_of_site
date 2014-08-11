@@ -306,7 +306,7 @@ header{
 	
 }
 .next_page_shop_needs{
-	background-image: url(Images/next_page_third.png);
+	background-image: url(Images/next_page_shop_needs.png);
 	color: #fff;
 }
 .page_shop_needs{
@@ -315,10 +315,14 @@ header{
 	text-align: center;
 	height: 668px;
 	z-index: 10;
+	position: relative;
 
 }
 .content_shop_needs{
 	padding-top: 0px;
+	text-align: center;
+
+
 }
 .checkout_consultation{
 	border-radius:28px;
@@ -377,13 +381,30 @@ header{
 	margin-top: 60px;
 }
 .footer_shop_needs{
-	position: absolute;
-	bottom:0px;
-	padding-top: 50px;
-	padding-bottom: 50px;
 	border-top: #fff solid;
+	border-width: 0.1px;
+	position: absolute;
+	bottom: 40px;
+	padding-top: 40px;
+	width: 100%;
+}
+.content_footer_shop_needs{
+	padding-top: 0;
+	text-align: left;
 }
 .year, .net, .creator_title{
 	display: inline-block;
 	color: #fff;
+	font-size: 14px;
+}
+.creator_title{
+	position: absolute;
+	right: 0px;
+	letter-spacing: 2px;
+}
+.net{
+	margin-left: 20px;
+}
+.twitter, .facebook, .google, .youtube{
+	margin-left: 15px;
 }
