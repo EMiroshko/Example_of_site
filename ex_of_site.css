@@ -321,6 +321,40 @@ header{
 	
 }
 
+
+
+.page_money{
+	background-color:#E2E7EB;
+	background-image: url(Images/forth_back.png);
+	margin-top: -55px;
+	text-align: center;
+	z-index: 30;
+	position: relative;
+	height: 100%;
+}
+
+.title_money_first{
+	font-size: 50px;
+	text-align: center;
+	margin-top: 50px;
+	display: inline-block;
+	color: #fff;
+}
+
+.title_money_second{
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+	margin-top: 10px;
+	line-height:28px;	
+}
+
+.next_page_money{
+	background-image: url(Images/next_page_third.png);
+	color: #fff;
+	
+}
+
 .page_history{
 	background-color:#fff;
 	margin-top: -55px;
@@ -328,8 +362,6 @@ header{
 	z-index: 90;
 	position: relative;
 }
-
-
 
 .title_history{
 	margin-top: 40px;
